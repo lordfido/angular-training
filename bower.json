@@ -1,0 +1,19 @@
+{
+  "name": "angular-training",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Rafael Pérez García",
+    "Lucio Mambrilla"
+  ],
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/lordfido/angular-training",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
