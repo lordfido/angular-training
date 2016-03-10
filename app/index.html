@@ -1,0 +1,43 @@
+<html ng-app="training">
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <title>Angular training</title>
+  <meta name="description" content="Small webapp" />
+
+  <!-- Vendors CSS -->
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css.map" />
+
+  <!-- App CSS -->
+</head>
+<body>
+
+  <!-- Content -->
+  <header id="header" ui-view="header"></header>
+  <nav id="nav" ui-view="nav"></nav>
+  <div id="content" ui-view="content"></div>
+  <footer id="footer" ui-view="footer"></footer>
+
+  <!-- Vendors JS-->
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-fontawesome/dist/angular-fontawesome.min.js"></script>
+  <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+
+  <!-- App JS -->
+  <script type="text/javascript" src="/scripts/angular-training.js"></script>
+
+  <script type="text/javascript" src="/scripts/controllers/mainController.js"></script>
+  <script type="text/javascript" src="/scripts/controllers/partials/footerController.js"></script>
+  <script type="text/javascript" src="/scripts/controllers/partials/headerController.js"></script>
+  <script type="text/javascript" src="/scripts/controllers/partials/navController.js"></script>
+
+  <script type="text/javascript" src="/scripts/routes/routes.js"></script>
+</body>
+</html>
