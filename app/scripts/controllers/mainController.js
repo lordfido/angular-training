@@ -1,6 +1,6 @@
 training.controller('mainController', [
-  '$scope',
-  function($scope){
+  '$scope', '$state',
+  function($scope, $state){
 
     $scope.init = function(){
 

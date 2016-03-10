@@ -4,15 +4,11 @@ training.config(
   	$stateProvider
 
   		.state('app', {
-  			url: '/',
+  			url: '/:timestamp',
   			views: {
   				'header': {
   				  templateUrl: '/scripts/views/partials/header.html',
   				  controller: 'headerController'
-  				},
-  				'nav': {
-  				  templateUrl: '/scripts/views/partials/nav.html',
-  				  controller: 'navController'
   				},
           'footer': {
   				  templateUrl: '/scripts/views/partials/footer.html',
